@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { SearchCard } from "../styled";
 
 function ShowCard({
   ids,
@@ -17,8 +18,8 @@ function ShowCard({
     : "No description";
 
   return (
-    <div>
-      <div>
+    <SearchCard>
+      <div className="img-wrapper">
         <img src={image} alt="show" />
       </div>
 
@@ -26,11 +27,11 @@ function ShowCard({
 
       <p>{summaryAsText}</p>
 
-      <div>
+      <div className="btns">
         <Link to={`/show/${ids}`}>Read more</Link>
         <button type="button">Star me</button>
       </div>
-    </div>
+    </SearchCard>
   );
 }
 

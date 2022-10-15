@@ -2,10 +2,11 @@ import React from "react";
 import { TV_ACTOR_ALL } from "../../misc/types";
 import ActorCard from "./ActroCard";
 import NOT_FOUND from "../../images/not_found.png";
+import { FlexGrid } from "../styled";
 
 const ActorGrid = ({ data }: { data?: Array<TV_ACTOR_ALL> }) => {
   return (
-    <div>
+    <FlexGrid>
       {data !== undefined &&
         data.map(({ person }) => (
           <ActorCard
@@ -18,7 +19,7 @@ const ActorGrid = ({ data }: { data?: Array<TV_ACTOR_ALL> }) => {
             image={person.image ? person.image.medium : NOT_FOUND}
           />
         ))}
-    </div>
+    </FlexGrid>
   );
 };
 

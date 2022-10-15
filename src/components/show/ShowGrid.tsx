@@ -2,10 +2,11 @@ import React from "react";
 import ShowCard from "./ShowCard";
 import NOT_FOUND from "../../images/not_found.png";
 import { TV_DATA_ALL } from "../../misc/types";
+import { FlexGrid } from "../styled";
 
 export default function ShowGrid({ data }: { data?: Array<TV_DATA_ALL> }) {
   return (
-    <div>
+    <FlexGrid>
       {data !== undefined &&
         data.map(({ show }) => {
           return (
@@ -18,6 +19,6 @@ export default function ShowGrid({ data }: { data?: Array<TV_DATA_ALL> }) {
             />
           );
         })}
-    </div>
+    </FlexGrid>
   );
 }
