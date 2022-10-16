@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gv211432/box-office.git/static/css/main.2a66b25a.css",
+    "main.js": "/gv211432/box-office.git/static/js/main.ac5de60c.js",
+    "static/js/787.6e354c4d.chunk.js": "/gv211432/box-office.git/static/js/787.6e354c4d.chunk.js",
+    "index.html": "/gv211432/box-office.git/index.html",
+    "main.2a66b25a.css.map": "/gv211432/box-office.git/static/css/main.2a66b25a.css.map",
+    "main.ac5de60c.js.map": "/gv211432/box-office.git/static/js/main.ac5de60c.js.map",
+    "787.6e354c4d.chunk.js.map": "/gv211432/box-office.git/static/js/787.6e354c4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a66b25a.css",
+    "static/js/main.ac5de60c.js"
+  ]
+}
