@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { SearchCard } from "../styled";
+import { StyledShowCard } from "./ShowCard.styled";
 
-function ShowCard({
+const ShowCard = ({
   ids,
   image,
   name,
@@ -12,13 +12,13 @@ function ShowCard({
   image: string;
   name: string;
   summary: string;
-}) {
+}) => {
   const summaryAsText = summary
     ? `${summary.split(" ").slice(0, 10).join(" ").replace(/<.+?>/g, "")}...`
     : "No description";
 
   return (
-    <SearchCard>
+    <StyledShowCard>
       <div className="img-wrapper">
         <img src={image} alt="show" />
       </div>
@@ -31,8 +31,8 @@ function ShowCard({
         <Link to={`/show/${ids}`}>Read more</Link>
         <button type="button">Star me</button>
       </div>
-    </SearchCard>
+    </StyledShowCard>
   );
-}
+};
 
 export default ShowCard;

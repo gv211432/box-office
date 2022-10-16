@@ -1,3 +1,4 @@
+// namespace with interface of TV show subdata
 export namespace TV_DATA {
   export interface Schedule {
     time: string;
@@ -84,6 +85,7 @@ export namespace TV_DATA {
   }
 }
 
+// full api interface of tv show
 export interface TV_DATA_ALL {
   schedule: {
     time: string;
@@ -159,6 +161,7 @@ export interface TV_DATA_ALL {
   };
 }
 
+// namespace with interface of tv actors subdata
 export namespace TV_ACTOR {
   export interface Country {
     name: string;
@@ -198,6 +201,7 @@ export namespace TV_ACTOR {
   }
 }
 
+// full api interface of tv actor data
 export interface TV_ACTOR_ALL {
   country: {
     name: string;
