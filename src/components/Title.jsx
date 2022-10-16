@@ -1,16 +1,19 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { TitleWrapper } from "./Title.styled";
 
 Title.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
 };
 
-export default function Title({ title, subtitle }) {
+const Title = ({ title, subtitle }) => {
   return (
-    <div>
+    <TitleWrapper>
       <h1>{title}</h1>
       <p>{subtitle}</p>
-    </div>
+    </TitleWrapper>
   );
-}
+};
+
+export default Title;

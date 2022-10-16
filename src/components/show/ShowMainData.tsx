@@ -24,7 +24,7 @@ const ShowMainData = ({
         <Headline>
           <h1>{name}</h1>
           <div>
-            <Star />
+            <Star active={true} />
             <span>{rating.average || "N/A"}</span>
           </div>
         </Headline>
