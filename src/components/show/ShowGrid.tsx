@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React, { useCallback } from "react";
 import ShowCard from "./ShowCard";
-import NOT_FOUND from "../../images/not_found.png";
 import { TV_DATA_ALL } from "../../misc/types";
 import { FlexGrid } from "../styled";
 
@@ -16,13 +15,13 @@ const ShowGrid = ({ data }: { data?: Array<TV_DATA_ALL> }) => {
         data.map(({ show }) => {
           const isStarred = starredShows.includes(show.id);
 
-          const onStarClick = () => {
+          const onStarClick = useCallback(() => {
             if (isStarred) {
               dispatchStarred({ type: "REMOVE", showId: show.id });
             } else {
               dispatchStarred({ type: "ADD", showId: show.id });
             }
-          };
+          }, [isStarred, show.id]);
 
           return (
             <ShowCard
