@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://gauravs-tic-tac-toe.surge.sh">
+  <a href="https://gauravs-box-office.surge.sh">
     <img src="./README-SRC/logo.png" alt="Logo" width="120" height="120" >
   </a>
   
@@ -29,7 +29,7 @@
 
 <br>
 
-![tictactoe](./README-SRC/title.png)
+![title](./README-SRC/title.png)
 <br>
 
 Box Office Movie Search is a content speciﬁc search engine with the aim to retrieve movie information given the contents of a user's query. The search engine relies on the OkapiBM25 algorithm and takes into consideration the text present in the overview, the title, the names of the cast, and the production companies of each movie.
