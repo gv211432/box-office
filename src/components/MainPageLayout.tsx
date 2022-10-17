@@ -1,11 +1,6 @@
 import React from "react";
 import Navs from "./Navs";
 import Title from "./Title";
-// import PropTypes from "prop-types";
-
-// MainPageLayout.propTypes = {
-//   children: PropTypes.string.isRequired,
-// };
 
 export default function MainPageLayout({
   children,

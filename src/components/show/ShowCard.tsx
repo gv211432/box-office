@@ -2,7 +2,8 @@ import React, { memo } from "react";
 import { Link } from "react-router-dom";
 import { Star } from "../styled";
 import { StyledShowCard } from "./ShowCard.styled";
-
+import NOT_FOUND from "../../images/not-found.png";
+import LOADING_ICON from "../../images/loading-icon.gif";
 const ShowCard = ({
   ids,
   image,
@@ -24,8 +25,18 @@ const ShowCard = ({
 
   return (
     <StyledShowCard>
-      <div className="img-wrapper">
-        <img src={image} alt="show" />
+      <div
+        className="img-wrapper"
+        style={{ backgroundColor: "#aeaeae" }}
+        // style={{
+        //   backgroundColor: "#ffffff",
+        //   backgroundPosition: "center",
+        //   backgroundImage: `url(${LOADING_ICON})`,
+        //   backgroundRepeat: "no-repeat",
+        //   backgroundSize: "110,110",
+        // }}
+      >
+        <img src={image} />
       </div>
 
       <h1>{name}</h1>

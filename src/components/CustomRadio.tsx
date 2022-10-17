@@ -61,7 +61,7 @@ const CustomRadio = ({
   id: string;
   value: string;
   checked: boolean;
-  onChange: (ev: { target: { value: string } }) => void;
+  onChange: any;
 }) => {
   return (
     <RadioWrapper htmlFor={restProps.id}>

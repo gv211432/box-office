@@ -18,7 +18,7 @@ const ActorCard = ({
 }) => {
   return (
     <StyledActorCard>
-      <div className="img-wrapper">
+      <div className="img-wrapper" style={{ backgroundColor: "#aeaeae" }}>
         <img src={image} alt="actor" />
       </div>
       <h1>

@@ -1,5 +1,4 @@
 {
-  "homepage": "https://github.com/gv211432/box-office.git",
   "name": "box-office",
   "version": "0.1.0",
   "private": true,
@@ -24,6 +23,7 @@
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.6",
     "typescript": "^4.4.2",
+    "use-state-with-callback": "^3.0.2",
     "web-vitals": "^2.1.0"
   },
   "scripts": {

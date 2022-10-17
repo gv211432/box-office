@@ -1,3 +1,65 @@
+![GitHub](https://img.shields.io/github/license/GV211432/box-office) ![GitHub issues](https://img.shields.io/github/issues-raw/GV211432/box-office) ![GitHub Repo stars](https://img.shields.io/github/stars/GV211432/box-office?style=social)
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://gauravs-tic-tac-toe.surge.sh">
+    <img src="./README-SRC/logo.png" alt="Logo" width="120" height="120" >
+  </a>
+  
+  <h3 align="center"><b>BOX OFFICE</b></h3>
+
+  <p align="center">
+    Box Office provides you with a tons of features with other apps don't. You can easily find all information of any movie or actor and save them this information for future use.
+    <br />
+    <a href="#"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://gauravs-box-office.surge.sh" style="color:orange; font-weight:bold">Search Now!!</a>
+    ·
+    <a href="https://github.com/gv211432/box-office/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/gv211432/box-office/issues">Request Feature</a>
+  </p>
+</div>
+
+<!-- ABOUT THE PROJECT -->
+
+## ☑️ About The Project
+
+<br>
+
+![tictactoe](./README-SRC/title.png)
+<br>
+
+Box Office Movie Search is a content speciﬁc search engine with the aim to retrieve movie information given the contents of a user's query. The search engine relies on the OkapiBM25 algorithm and takes into consideration the text present in the overview, the title, the names of the cast, and the production companies of each movie.
+
+This project is developed by [me](https://github.com/gv211432).
+
+![intro](./README-SRC/box-home.png)
+
+<br>
+<br>
+
+## ⚙️ Installation
+
+### 1. Clone this repository
+
+```js
+git clone https://github.com/gv211432/box-office.git
+```
+
+### 2. Open the directory `tictactoe`
+
+```
+cd box-office
+```
+
+### 3. Then follow the following
+
+<br>
+<br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +106,18 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+<br>
+
+# More snaps
+
+![starred](./README-SRC/box-starred.png)
+![more](./README-SRC/more1.png)
+![more](./README-SRC/more.png)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## 📖 License
+
+Licence details are given here.
+[MIT](https://github.com/gv211432/box-office/blob/main/LICENSE)

@@ -1,46 +1,11 @@
-import React, { Reducer, useEffect, useReducer } from "react";
+import React from "react";
 
 import { useParams } from "react-router-dom";
 import Cast from "../components/show/Cast";
 import Details from "../components/show/Details";
 import Seasons from "../components/show/Seasons";
 import ShowMainData from "../components/show/ShowMainData";
-import { apiGet } from "../misc/config";
 import { useShow } from "../misc/custom-hooks";
-import { SHOW_TYPES_ALL } from "../misc/showTypes";
-
-// interface pageState {
-//   // show: SHOW_TYPES_ALL | null | undefined;
-//   show: any | undefined | null;
-//   isLoading: boolean;
-//   error: string | null | undefined;
-// }
-
-// const reducer = (
-//   prvState: pageState,
-//   action: {
-//     type: "FECTH_SUCCESS" | "FECTH_FAILED";
-//     show?: SHOW_TYPES_ALL | null;
-//     error?: string | null;
-//   }
-// ): pageState => {
-//   switch (action.type) {
-//     case "FECTH_SUCCESS": {
-//       return { isLoading: false, error: null, show: action.show };
-//     }
-//     case "FECTH_FAILED": {
-//       return { ...prvState, isLoading: false, error: action.error };
-//     }
-//     default:
-//       return prvState;
-//   }
-// };
-
-// const initialState = {
-//   show: null,
-//   isLoading: true,
-//   error: null,
-// };
 
 export default function Show() {
   const { id } = useParams(); // id is in string|undefined
