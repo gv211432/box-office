@@ -8,7 +8,7 @@
   </a>
   
   <h3 align="center"><b>BOX OFFICE</b></h3>
-
+  
   <p align="center">
     Box Office provides you with a tons of features with other apps don't. You can easily find all information of any movie or actor and save them this information for future use.
     <br />
@@ -35,6 +35,7 @@
 Box Office Movie Search is a content speciﬁc search engine with the aim to retrieve movie information given the contents of a user's query. The search engine relies on the OkapiBM25 algorithm and takes into consideration the text present in the overview, the title, the names of the cast, and the production companies of each movie.
 
 This project is developed by [me](https://github.com/gv211432).
+<h4 align="center">Made on <img width="40" height="40" src="https://th.bing.com/th?id=OIP.maKe3jXsLd8flovNsX2_3QHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" /> </h4>
 
 ![intro](./README-SRC/box-home.png)
 
