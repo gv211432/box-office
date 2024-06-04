@@ -50,7 +50,7 @@ This project is developed by [me](https://github.com/gv211432).
 git clone https://github.com/gv211432/box-office.git
 ```
 
-### 2. Open the directory `tictactoe`
+### 2. Open the directory `box-office`
 
 ```
 cd box-office
